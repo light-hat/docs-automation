@@ -1,4 +1,4 @@
-name: "Docs automation"
+name: "light-hat/docs-automation"
 description: "Автоматизирует формирование документов по частям."
 icon: "book"
 color: "yellow"
