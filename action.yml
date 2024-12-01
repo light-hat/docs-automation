@@ -1,5 +1,5 @@
-name: "My Custom Action"
-description: "Simple Action that prints a message"
+name: "Docs automation"
+description: "Автоматизирует формирование документов по частям."
 inputs:
   message:
     description: "Message to print"
