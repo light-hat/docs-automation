@@ -1,0 +1,7 @@
+input/
+output/
+*.odt
+*.pdf
+*.md~
+__pycache__/
+*.log

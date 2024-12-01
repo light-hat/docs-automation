@@ -1,0 +1,17 @@
+name: "My Custom Action"
+description: "Simple Action that prints a message"
+inputs:
+  message:
+    description: "Message to print"
+    required: true
+    default: "Hello, World!"
+outputs:
+  result:
+    description: "The result of the Action"
+runs:
+  using: "composite"
+  steps:
+    - name: Print message
+      run: echo "${{ inputs.message }}"
+    - name: Set output
+      run: echo "result=Done" >> $GITHUB_ENV
