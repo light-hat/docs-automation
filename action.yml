@@ -1,5 +1,7 @@
 name: "Docs automation"
 description: "Автоматизирует формирование документов по частям."
+icon: "book"
+color: "yellow"
 inputs:
   message:
     description: "Message to print"
