@@ -16,5 +16,7 @@ runs:
   steps:
     - name: Print message
       run: echo "${{ inputs.message }}"
+      shell: bash
     - name: Set output
       run: echo "result=Done" >> $GITHUB_ENV
+      shell: bash
