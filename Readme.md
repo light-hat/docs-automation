@@ -1,13 +1,3 @@
-# Автоматизация отчетности ВКР
+# Docs automation
 
-Автоматическая генерация отчёта по ВКР.
-
-```shell
-docker build -t document-builder .
-
-```
-
-```shell
-docker run --rm -v $PWD/output:/output -v $PWD/input:/app document-builder
-
-```
+Плагин Github Actions для автоматической генерации документов по кускам. Пока реализуется под конкретную задачу (формирование отчёта ВКР по кускам).
