@@ -1,7 +1,8 @@
 name: "light-hat/docs-automation"
 description: "Автоматизирует формирование документов по частям."
-icon: "book"
-color: "yellow"
+branding:
+  icon: "book"
+  color: "yellow"
 inputs:
   message:
     description: "Message to print"
